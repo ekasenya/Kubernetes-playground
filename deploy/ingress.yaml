@@ -11,7 +11,7 @@ spec:
     - host: arch.homework
       http:
         paths:
-          - path: /
+          - path: /otusapp/esenenkova(/|$)(.*)
             pathType: Prefix
             backend:
               service:
